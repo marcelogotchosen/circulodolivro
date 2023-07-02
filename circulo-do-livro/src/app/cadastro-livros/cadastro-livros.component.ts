@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./cadastro-livros.component.css']
 })
 export class CadastroLivrosComponent {
+  mensagem: string = "";
 
+  mostrarMensagem() {
+    this.mensagem = "Cadastrando!";
+  }
 }
