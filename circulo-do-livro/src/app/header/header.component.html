@@ -1,16 +1,22 @@
 <header>
   <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Circulo do Livro</a>
+    <a class="navbar-brand" routerLink="/">Circulo do Livro</a>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Membros</a>
+        <a class="nav-link" routerLink="">Pagina Inicial</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Livros</a>
+        <a class="nav-link" routerLink="/membros">Membros</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Agenda</a>
+        <a class="nav-link" routerLink="/livros">Livros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/agenda">Agenda</a>
       </li>
     </ul>
   </nav>
 </header>
+<p>Bem vindo, {{ nome }} </p>
+
+<router-outlet></router-outlet>

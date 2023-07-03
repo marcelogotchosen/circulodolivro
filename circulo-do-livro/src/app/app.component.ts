@@ -8,4 +8,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'circulo-do-livro';
   nome: string = "Marcelo Nascimento";
+   listaMembros: any[] = [];
+
+  membroCadastrado(membro: any) {
+    this.listaMembros.push(membro);
+  }
+
+    incluirNovoMembro() {
+    // Lógica para inclusão de novo membro
+  }
 }
