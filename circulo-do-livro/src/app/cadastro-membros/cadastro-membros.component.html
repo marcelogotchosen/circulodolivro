@@ -1,7 +1,7 @@
-<div class="d-flex justify-content-center vh-100 align-items-center">
+<div class="d-flex justify-content-center  align-items-center">
   <div class="text-center">
-    <h1>CADASTRO DE MEMBROS</h1>
     <h3>Cadastro de Membros</h3>
+    <div class="v-align">
     <form [formGroup]="membroForm" (ngSubmit)="cadastrarMembro()">
       <div class="form-group">
         <label for="nome">Nome:</label>
@@ -21,5 +21,6 @@
       <button class="btn btn-primary" type="submit" [disabled]="membroForm.invalid">Cadastrar</button>
 
     </form>
+    </div>
   </div>
 </div>

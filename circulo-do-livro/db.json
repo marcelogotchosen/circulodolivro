@@ -1,0 +1,14 @@
+{
+  "membros": [
+      {
+          "nome": "Maria das Dores",
+          "endereco": "Rua da Maria das Dores",
+          "telefone": "041-1111-1111"
+      },
+      {
+          "nome": "Francisca das Flores",
+          "endereco": "Rua da Francisca das Flores",
+          "telefone": "041-1111-1111"
+      }
+  ]
+}

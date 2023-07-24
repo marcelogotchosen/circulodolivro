@@ -1,19 +1,22 @@
 <h2>Listagem de Membros</h2>
-<table class="table">
-  <thead>
-    <tr>
-      <th>Nome</th>
-      <th>Endereço</th>
-      <th>Telefone</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let membro of membros">
-      <td>{{ membro.nome }}</td>
-      <td>{{ membro.endereco }}</td>
-      <td>{{ membro.telefone }}</td>
-    </tr>
-  </tbody>
-</table>
+<div class="v-align">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Endereço</th>
+          <th>Telefone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let membro of membros">
+          <td>{{ membro.nome }}</td>
+          <td>{{ membro.endereco }}</td>
+          <td>{{ membro.telefone }}</td>
+        </tr>
+      </tbody>
+    </table>
 
-<button class="btn btn-primary" (click)="adicionarMembro()">Adicionar Membro</button>
+    <button class="btn btn-primary" (click)="adicionarMembro()">Adicionar Membro</button>
+
+</div>

@@ -1,22 +1,8 @@
-<header>
-  <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <a class="navbar-brand" routerLink="/">Circulo do Livro</a>
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" routerLink="">Pagina Inicial</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/membros">Membros</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/livros">Livros</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/agenda">Agenda</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-<p>Bem vindo, {{ nome }} </p>
+<header class="main_header navbar">
+    <img class="navbar-brand" src="assets/livro.png" height="50">
+    <ul class="navbar-nav titulo_circulo">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><span class="sr-only">CIRCULO DO LIVRO</span></a>
+      </li></ul>
 
-<router-outlet></router-outlet>
+</header>

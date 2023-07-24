@@ -17,4 +17,10 @@
     </tbody>
   </table>
 </div>
-<app-cadastro-membros (membroCadastrado)="adicionarMembro($event)"></app-cadastro-membros>
+<div class="acoes">
+<button type="button" class="btn btn-primary" (click)="mostrarMembrosModal=true;mostrarMembrosPage=false" *ngIf="mostrarMembrosModal==false&&membros.length">
+  Cadastrar Membros
+</button>
+</div>
+
+<app-cadastro-membros  *ngIf="mostrarMembrosModal" (membroCadastrado)="adicionarMembro($event)"></app-cadastro-membros>

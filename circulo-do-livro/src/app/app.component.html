@@ -1,2 +1,11 @@
+<div class="main vh-100">
 <app-header></app-header>
-<app-footer></app-footer>
+<div class="main_container">
+<app-left-menu class="left_menu"></app-left-menu>
+<div class="main_content">
+    <div class="main_greeting">Bem vindo, {{ nome }} </div>
+    <div class="main_outlet"><router-outlet></router-outlet></div>
+    <app-footer></app-footer>
+</div>
+</div>
+</div>

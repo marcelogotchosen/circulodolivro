@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ListagemMembrosComponent } from './listagem-membros/listagem-membros.component';
 import { MembrosPageComponent } from './membros-page/membros-page.component';
+import { LeftMenuComponent } from './left-menu/left-menu.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { MembrosPageComponent } from './membros-page/membros-page.component';
     FooterComponent,
     HomeComponent,
     ListagemMembrosComponent,
-    MembrosPageComponent
+    MembrosPageComponent,
+    LeftMenuComponent
   ],
   imports: [
     BrowserModule,
