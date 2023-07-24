@@ -18,7 +18,7 @@ https://www.figma.com/file/rRBo6pZMFrBVue17FwmQGn/Circulo-do-Livro?type=design&n
 - [x] Passar dados entre componentes que representam diferentes telas via parâmetros de rotas.
 - [x] Validar campos do formulário com REGEX e apresentar os erros.
 - [x] Desabilitar o botão de submit enquanto o formulário está inválido.
-- [ ] Fazer requisições a API com tratamento da resposta com Promises ou Observables.
+- [x] Fazer requisições a API com tratamento da resposta com Promises ou Observables.
 - [ ] Cadastrar uma entidade no JSON Server.
 - [ ] Apresentar uma lista de dados com a diretiva estrutural ngFor.
 - [ ] Usar a diretiva ngIf
