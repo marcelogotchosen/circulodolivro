@@ -22,7 +22,7 @@ https://www.figma.com/file/rRBo6pZMFrBVue17FwmQGn/Circulo-do-Livro?type=design&n
 - [x] Cadastrar uma entidade no JSON Server.
 - [x] Apresentar uma lista de dados com a diretiva estrutural ngFor.
 - [x] Usar a diretiva ngIf
-- [ ] Formatar a apresentação de dados com Pipes.
+- [X] Formatar a apresentação de dados com Pipes.
 - [ ] Build e deploy da aplicação.
 
 ## Manual de execução
