@@ -1,14 +1,38 @@
 {
   "membros": [
-      {
-          "nome": "Maria das Dores",
-          "endereco": "Rua da Maria das Dores",
-          "telefone": "041-1111-1111"
-      },
-      {
-          "nome": "Francisca das Flores",
-          "endereco": "Rua da Francisca das Flores",
-          "telefone": "041-1111-1111"
-      }
+    {
+      "nome": "Maria das Dores",
+      "endereco": "Rua da Maria das Dores",
+      "telefone": "041-1111-1111"
+    },
+    {
+      "nome": "Francisca das Flores",
+      "endereco": "Rua da Francisca das Flores",
+      "telefone": "041-1111-1111"
+    },
+    {
+      "nome": "Paulo",
+      "telefone": "123-1234-1234",
+      "endereco": "Rua Paulo",
+      "id": 105
+    },
+    {
+      "nome": "Gui",
+      "telefone": "222-2222-2222",
+      "endereco": "Rua do Gui",
+      "id": 525
+    },
+    {
+      "nome": "Marcelo",
+      "telefone": "999-9999-9999",
+      "endereco": "Rua do Marcelo",
+      "id": 577
+    },
+    {
+      "nome": "Cris",
+      "telefone": "454-4544-4565",
+      "endereco": "Rua da Cris",
+      "id": 249
+    }
   ]
 }

@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms'; // Import ReactiveFormsModule
-
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { ListagemMembrosComponent } from './listagem-membros/listagem-membros.component';
 import { MembrosPageComponent } from './membros-page/membros-page.component';
 import { LeftMenuComponent } from './left-menu/left-menu.component';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { LeftMenuComponent } from './left-menu/left-menu.component';
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

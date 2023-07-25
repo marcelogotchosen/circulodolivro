@@ -10,8 +10,8 @@
     </thead>
     <tbody>
       <tr *ngFor="let membro of membros">
-        <td>{{ membro.nome }}</td>
-        <td>{{ membro.endereco }}</td>
+        <td>{{ membro.nome|uppercase }}</td>
+        <td>{{ membro.endereco|uppercase }}</td>
         <td>{{ membro.telefone }}</td>
       </tr>
     </tbody>
