@@ -26,4 +26,5 @@ https://www.figma.com/file/rRBo6pZMFrBVue17FwmQGn/Circulo-do-Livro?type=design&n
 - [ ] Build e deploy da aplicação.
 
 ## Manual de execução
-  TODO
+  Para executar - npm run start
+
