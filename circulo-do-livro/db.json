@@ -34,5 +34,18 @@
       "endereco": "Rua da Cris",
       "id": 249
     }
+  ],
+  "Livros": [
+    {
+      "titulo": "Vida e Morte Severina",
+      "autor": "Joao Cabral de Melo Neto",
+      "tema": "Drama"
+    },
+    {
+      "titulo": "O Iluminado",
+      "autor": "Stephen King",
+      "tema": "Terror",
+      "id": 151
+    }
   ]
 }

@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { ListagemMembrosComponent } from './listagem-membros/listagem-membros.component';
 import { MembrosPageComponent } from './membros-page/membros-page.component';
 import { LeftMenuComponent } from './left-menu/left-menu.component';
+import { LivrosPageComponent } from './livros-page/livros-page.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { LeftMenuComponent } from './left-menu/left-menu.component';
     HomeComponent,
     ListagemMembrosComponent,
     MembrosPageComponent,
-    LeftMenuComponent
+    LeftMenuComponent,
+    LivrosPageComponent
   ],
   imports: [
     BrowserModule,

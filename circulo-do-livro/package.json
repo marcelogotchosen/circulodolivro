@@ -4,9 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve & npm run json:server",
-    "build": "ng build",
+    "build": "ng build --configuration production --base-href=/circulo-do-livro/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "ghpages" : "angular-cli-ghpages --no-silent --dir=dist/circulo-do-livro",
+    "deploy" : "npm run build --no-silent & npm run ghpages --no-silent",
     "json:server": "json-server --watch db.json",
     "json:server:routes" : "json-server --watch db.json --routes routes.json"
   },

@@ -1,0 +1,26 @@
+<div *ngIf="mostrarLivrosPage">
+    <h2>Listagem de Livros</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Titulo</th>
+          <th>Autor</th>
+          <th>Tema</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let livro of livros">
+          <td>{{ livro.titulo|uppercase }}</td>
+          <td>{{ livro.autor|uppercase }}</td>
+          <td>{{ livro.tema }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="acoes">
+  <button type="button" class="btn btn-primary" (click)="mostrarLivrosModal=true;mostrarLivrosPage=false" *ngIf="mostrarLivrosModal==false&&livros.length">
+    Cadastrar Livro
+  </button>
+  </div>
+
+  <app-cadastro-livros  *ngIf="mostrarLivrosModal" (livroCadastrado)="adicionarLivro($event)"></app-cadastro-livros>
